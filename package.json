@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "author": "Matt Pocock <mattpocockvoice@gmail.com>",
   "license": "GPL-3.0",
   "devDependencies": {
     "@total-typescript/exercise-cli": "^0.11.0",
