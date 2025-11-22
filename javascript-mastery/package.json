@@ -1,39 +1,31 @@
 {
-  "name": "javascript-nodejs-mastery",
+  "name": "javascript-mastery",
   "version": "1.0.0",
-  "description": "Complete JavaScript and Node.js practice exercises - from fundamentals to mastery",
+  "description": "Complete JavaScript practice - fundamentals, algorithms, data structures, and design patterns",
   "type": "module",
   "scripts": {
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",
-    "exercise": "vitest run",
     "fundamentals": "vitest run js-fundamentals",
     "advanced": "vitest run js-advanced",
     "async": "vitest run async",
     "data-structures": "vitest run data-structures",
     "algorithms": "vitest run algorithms",
-    "node-core": "vitest run node-core",
-    "node-advanced": "vitest run node-advanced",
     "design-patterns": "vitest run design-patterns"
   },
   "keywords": [
     "javascript",
-    "nodejs",
     "exercises",
     "practice",
-    "learning",
-    "tutorial"
+    "algorithms",
+    "data-structures",
+    "design-patterns"
   ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.0",
-    "vitest": "^2.0.0",
-    "supertest": "^7.0.0"
-  },
-  "dependencies": {
-    "express": "^4.21.0",
-    "axios": "^1.7.0"
+    "vitest": "^2.0.0"
   }
 }

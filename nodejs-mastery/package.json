@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-mastery",
+  "version": "1.0.0",
+  "description": "Complete Node.js practice - core modules, Express, APIs, and backend development",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "node-core": "vitest run node-core",
+    "node-advanced": "vitest run node-advanced",
+    "express": "vitest run node-advanced"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend",
+    "api",
+    "exercises"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "vitest": "^2.0.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.0"
+  }
+}
