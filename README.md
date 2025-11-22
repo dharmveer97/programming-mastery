@@ -149,8 +149,8 @@ Complete backend development course following the [roadmap.sh/nodejs](https://ro
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd javascript-mastery
+git clone https://github.com/dharmveer97/programming-mastery.git
+cd programming-mastery/javascript-mastery
 
 # Install dependencies
 npm install
@@ -460,8 +460,8 @@ If you find this helpful, please give it a star ⭐ to help others discover it!
 ## 🚀 Start Your Learning Journey Today
 
 ```bash
-git clone <your-repo-url>
-cd javascript-mastery
+git clone https://github.com/dharmveer97/programming-mastery.git
+cd programming-mastery/javascript-mastery
 npm install
 npm run test:watch
 ```
